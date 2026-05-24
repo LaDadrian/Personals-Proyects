@@ -1,0 +1,126 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bce1ea;
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #2c5d6e;
+    color: white;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    opacity: 0.9;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #bce1ea;
+}
+
+.servicios {
+    background-color: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.servicios h2, .servicios h3 {
+    color: #2c5d6e;
+}
+svg {
+    vertical-align: middle;
+}
+
+.contacto {
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 2px solid #2c5d6e;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+legend h2 {
+    margin: 0;
+    padding: 0 10px;
+    color: #2c5d6e;
+}
+.campo {
+    margin-bottom: 15px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Botón de enviar */
+button[type="submit"] {
+    background-color: #2c5d6e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #1a3a46;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #555;
+    font-size: 0.9rem;
+    margin-top: 30px;
+}
